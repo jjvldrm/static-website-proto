@@ -6,6 +6,7 @@ import playstore from '../icons/playstore.png';
 import search from '../icons/product-search.svg';
 import smartphone from '../icons/product-smartphone.svg'
 import endless from '../icons/product-work.svg';
+import decals2 from '../icons/bg-decals2.svg';
 
 const Body = () => {
     return (
@@ -69,20 +70,45 @@ const Body = () => {
 
             <div class='endless'>
                 <div class='end'>
-                <h1 class='text5'>
-                    Endless Possibilities
-                </h1>
-                <h4 class='text51'>
-                    Management Systems shouldn't be a bore. Run out of words? Heres some lorem ipsum: Lorem ipsum dolor sit amet.
-                </h4>
+                    <h1 class='text5'>
+                        Endless Possibilities
+                    </h1>
+                    <h4 class='text51'>
+                        Management Systems shouldn't be a bore. Run out of words? Heres some lorem ipsum: Lorem ipsum dolor sit amet.
+                    </h4>
                 </div>
                 <img class='work' src={endless}></img>
             </div>
 
-            <div class='dive'>
-                
 
+
+            <div class='bluebox'>
+                <div class='dive'>
+                    <div class='letters'>
+                        <h1 class='ready'>
+                            Deep Dive. Ready?
+                        </h1>
+                        <h4 class='words'>
+                            So are we. Unless. You're. Not. Word filler.
+                        </h4>
+                        <div class='appPlayStore2'>
+                            <img class='android2' src={playstore}></img>
+                            <img class='ios2' src={appstore}></img>
+                        </div>
+                        <img class='decals2' src={decals2}></img>
+                    </div>
+                </div>
             </div>
+
+            <div class='call'>
+                <h1>Last Call to Action</h1>
+            </div>
+
+            <div class='another'>
+                    <h4>Another section content goes here</h4>
+            </div>
+
+
 
 
         </div>
