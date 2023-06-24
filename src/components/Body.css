@@ -1,0 +1,145 @@
+*{
+    max-width: 100%;
+}
+
+.topimg {
+    position: absolute;
+    right: 0px;
+    top:0px;
+    height: 400px;
+    z-index: -1;
+}
+
+.protoapp {
+    max-width:30%;
+    height: auto;
+    padding: 5px;
+
+}
+
+.protoapp header {
+    font-size:3rem;
+    font-weight: normal;
+    margin-top: 20px;
+
+}
+
+.protoapp .text {
+    font-size: 14px;
+}
+
+.button{
+    background-color: #2248e2;
+    color: white;
+    font-weight: bold;
+    padding:  15px 20px 15px 20px;
+    border:1px;
+    border-radius: 3px;
+}
+
+.decals {
+    position: absolute;
+    left: -113px;
+    top: 180px;
+    height: 380px;
+    z-index: -1;
+}
+
+.appPlayStore {
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 450px;
+}
+
+.appPlayStore img {
+    width: 150px;
+    height: auto;
+    padding: 0px;
+
+}
+
+.meet {
+    position:absolute;
+    display: flex;
+    width:100%;
+    max-width: 100%;
+    top:600px;
+    height: 100px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.meet header {
+    font-size: 40px;
+    font-weight:bolder;
+}
+
+.meet .text2 {
+    position: absolute;
+    font-size: 18px;
+    width: 44%;
+    margin-top: 5%;
+}
+
+.discover {
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    margin-top: 550px;
+
+}
+
+.discover .disc {
+    width: 500px;
+}
+
+.discover .search{
+    height: 200px;
+}
+
+.augment {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.augment .aug{
+    width: 380px;
+
+}
+
+.augment .augmented {
+    height: 200px;
+    margin-left: 400px;
+
+}
+
+.endless {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    margin-top: 80px;
+
+}
+
+.endless .end {
+    width: 500px;
+
+    padding-left: 60px;
+}
+
+.text5 {
+    display: flex;
+    max-width: 400px;
+
+}
+
+.endless .work {
+    height: 200px;
+}
