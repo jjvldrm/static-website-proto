@@ -4,7 +4,7 @@
 
 .topimg {
     position: absolute;
-    right: 0px;
+    right: 40px;
     top:0px;
     height: 400px;
     z-index: -1;
@@ -28,7 +28,7 @@
     font-size: 14px;
 }
 
-.button{
+.buttonblue{
     background-color: #2248e2;
     color: white;
     font-weight: bold;
@@ -50,7 +50,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     top: 450px;
 }
@@ -63,15 +63,16 @@
 }
 
 .meet {
-    position:absolute;
+    /* position:absolute; */
     display: flex;
     width:100%;
     max-width: 100%;
-    top:600px;
+    /* top:600px; */
     height: 100px;
     justify-content: center;
     align-content: center;
     text-align: center;
+    margin-top: 80px;
 }
 
 .meet header {
@@ -89,13 +90,15 @@
 .discover {
     display: flex;
     justify-content: center;
+    align-content: center;
     text-align: right;
-    margin-top: 550px;
+    margin-top: 80px;
+    width: 90%;
 
 }
 
 .discover .disc {
-    width: 500px;
+    max-width: 30%;
 }
 
 .discover .search{
@@ -105,17 +108,20 @@
 .augment {
     display: flex;
     justify-content: center;
+    max-width: 100%;
     margin-top: 80px;
 }
 
 .augment .aug{
-    width: 380px;
+    width: 40%;
+    transform: translateX(20%);
 
 }
 
 .augment .augmented {
     height: 200px;
-    margin-left: 400px;
+    display:flex;
+    transform: translateX(45%);
 
 }
 
@@ -125,23 +131,33 @@
     align-items: center;
     text-align: right;
     margin-top: 80px;
+    /* max-width: 100%; */
 
 }
 
 .endless .end {
     width: 500px;
-
-    padding-left: 60px;
+    /* padding-left: 60px; */
 }
 
 .text5 {
     display: flex;
-    max-width: 400px;
+    max-width: 20%;
+    transform: translateX(140%);
+
+}
+
+.text51 {
+    display: flex;
+    max-width: 60%;
+    transform: translateX(30%);
 
 }
 
 .endless .work {
     height: 200px;
+    display: flex;
+    transform: translateX(-25%);
 }
 
 .bluebox {
@@ -151,10 +167,11 @@
     margin-top: 100px;
     flex-direction: column;
     position: relative;
+    width: 100%;
 }
 
 .decals2 {
-    margin-left: 850px;
+    margin-left: 650px;
     position: absolute;
     top: -50px
 }
@@ -211,4 +228,99 @@
     justify-content: center;
     margin-top: -10px;
 
+}
+
+.doubleBox {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.yellow {
+    background-color: orange;
+    max-width: 40%;
+    border-radius: 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+}
+
+.yinner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.yellow img {
+    height: auto;
+    width: 200px;
+
+}
+
+.automate {
+    border-radius: 15px;
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+    font-size: small;
+    padding: 5px;
+}
+
+.yellowtxt {
+    color:white;
+    gap: auto;
+}
+
+.bluish {
+    background-color: #0093AF;
+    max-width: 40%;
+    border-radius: 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+}
+
+.bluinner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.bluish img {
+    height: auto;
+    width: 200px;
+
+}
+
+.simple {
+    border-radius: 15px;
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+    font-size: small;
+    padding: 5px;
+}
+
+.bluetxt {
+    color:white;
+    gap: auto;
+}
+
+.decals3 {
+    display: flex;
+    flex-direction: row;
+    /* align-items: end; */
+    width: 98.5%;
 }

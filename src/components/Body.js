@@ -7,6 +7,9 @@ import search from '../icons/product-search.svg';
 import smartphone from '../icons/product-smartphone.svg'
 import endless from '../icons/product-work.svg';
 import decals2 from '../icons/bg-decals2.svg';
+import venom from '../icons/laravel-mix.svg';
+import eyeglass from '../icons/how-to-read-code.svg';
+import decals3 from '../icons/bg-decals3.svg';
 
 const Body = () => {
     return (
@@ -20,7 +23,7 @@ const Body = () => {
                 <h3 class='text'>
                     Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
                 </h3>
-                <button class='button'>
+                <button class='buttonblue'>
                     Get Started
                 </button>
             </div>
@@ -105,11 +108,37 @@ const Body = () => {
             </div>
 
             <div class='another'>
-                    <h4>Another section content goes here</h4>
+                <h4>Another section content goes here</h4>
             </div>
 
+            <div class='doubleBox'>
+                <div class='yellow'>
+                    <div class='yinner'>
+                        <img src={venom}></img>
+                        <button class='automate'>AUTOMATION</button>
+                    </div>
+                    <div class='yellowtxt'>
+                        <h5>ROLL OUT</h5>
+                        <h2>Automatic Prototyping</h2>
+                        <h5>Webpack is the most powerful and flexible asset compilation tool available today. With that power, however, comes a certain level of complexity.</h5>
+                    </div>
+                </div>
+                <div class='bluish'>
+                    <div class='bluinner'>
+                    <img src={eyeglass}></img>
+                    <button class='simple'>SIMPLICITY</button>
+                    </div>
+                    <div class='bluetxt'>
+                        <h5>SIP COFFEE</h5>
+                        <h2>Complexity Simplified</h2>
+                        <h5>I know too many backend developers who are stifled by one glaring phobia: CSS. How do you construct a layout when nothing lines up?</h5>
+                    </div>
+                </div>
+            </div>
 
-
+            <div class='decals3'>
+                    <img src={decals3}></img>
+            </div>
 
         </div>
     );

@@ -1,4 +1,4 @@
-import Icon from '../icons/logo1.svg';
+import Icon from '../icons/PDOLOGO3.png';
 import './Appbar.css';
 
 
